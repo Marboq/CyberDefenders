@@ -56,5 +56,5 @@ Which username was utilized for authentication via SMB?
 ### Flag 4: 2020-09-23 16:50:16.731550
 
 
-
+\
 sdfs
