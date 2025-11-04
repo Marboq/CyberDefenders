@@ -96,5 +96,25 @@ Which username was utilized for authentication via SMB?
 
 ### Q7:
 > The attacker used a non-standard username to set up requests, indicating an attempt to maintain covert access. Identifying this username is essential for understanding how persistence was established. Which username was used to set up these potentially suspicious requests?
+
+### A7:
+> The NTLMSSP protocol is used by Windows systems for authentication. To locate only those packets where a user is trying to authenticate, we will use the filter ‘ntlmssp.auth.username’. Then, in the "Info" column, we will see the username, in this case, ‘backdoor’.
+
+<img width="1090" height="79" alt="obraz" src="https://github.com/user-attachments/assets/eeafe9c9-819e-48fa-8520-e016eb4c3a32" />
+
+### Flag 7: backdoor
+<br>
+<br>
+<br>
+
+### Q8:
+> The attacker leveraged a specific executable file to execute processes remotely on the compromised system. Recognizing this file name can assist in pinpointing the tools used in the attack. What is the name of the executable file utilized to execute processes remotely?
+
+### A8:
+> Clicking on File→Export Objects→SMB, we will get a window with the files that appeared during the captured network traffic. We are immediately interested in the first item – psexesvc.exe. This file is a component of the PsExec tool. It is a command-line tool that is used by admins, but also by attackers, to remotely run programs and commands.
+
+<img width="1090" height="142" alt="obraz" src="https://github.com/user-attachments/assets/9dce8712-d11b-440f-92b7-fc12f1eec55d" />
+
+
  
 
