@@ -77,3 +77,9 @@ Which username was utilized for authentication via SMB?
 <img width="1090" height="394" alt="obraz" src="https://github.com/user-attachments/assets/35cc1700-fb12-4e04-a184-b8d212fe1120" />
 
 ### Flag 5: atsvc
+<br>
+<br>
+<br>
+
+### Q6:
+> Measuring the duration of suspicious communication can reveal how long the attacker maintained unauthorized access, providing insights into the scope and persistence of the attack. What was the duration of communication between the identified addresses 172.16.66.1 and 172.16.66.36?
