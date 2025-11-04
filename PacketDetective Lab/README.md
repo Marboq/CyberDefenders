@@ -24,3 +24,16 @@ Which username was utilized for authentication via SMB?
 >After typing the protocol name "ntlmssp" into the filter box, the packets containing this protocol were displayed. Here you can immediately see that in the "Info" column, we see user:Administrator. This is one method. The second method is that by typing "ntlmssp.auth.username" into the filter box, we get only those packets where information about the credentials used in the SMB protocol is visible.
 
 <img width="1090" height="580" alt="obraz" src="https://github.com/user-attachments/assets/5c945ce3-71c5-4f8a-af0f-919f584faa4b" />
+
+### Flag 2: Administrator
+
+
+### Q3:
+>During the attack, the adversary accessed certain files. Identifying which files were accessed can reveal the attacker's intent. What is the name of the file that was opened by the attacker?
+
+### A3:
+>After selecting the File→Export Objects→SMB option, we get a window with the files that were transferred during the captured network traffic. In this case, it is one file that was downloaded – eventlog.
+
+<img width="792" height="576" alt="obraz" src="https://github.com/user-attachments/assets/29d05a02-ef5a-4a18-b8ce-6aa59f520805" />
+
+### Flag 3: eventlog
