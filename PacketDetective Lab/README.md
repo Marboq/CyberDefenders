@@ -115,6 +115,7 @@ Which username was utilized for authentication via SMB?
 
 <img width="1090" height="142" alt="obraz" src="https://github.com/user-attachments/assets/9dce8712-d11b-440f-92b7-fc12f1eec55d" />
 
+### Flag 8: psexesvc.exe
 
  
 
