@@ -54,7 +54,7 @@ Which username was utilized for authentication via SMB?
 <img width="1091" height="59" alt="obraz" src="https://github.com/user-attachments/assets/ba813608-b948-4a61-92d8-291d052b226e" />
 
 ### Flag 4: 2020-09-23 16:50:16.731550
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+/
 sdfs
