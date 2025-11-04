@@ -7,7 +7,8 @@
  ### Q1: 
  >The attacker’s activity showed extensive SMB protocol usage, indicating a potential pattern of significant data transfer or file access. What is the total number of bytes of the SMB protocol?
 
-### A: We select the Statistics→Protocol Hierarchy option. And in the image below, you can see in the "Bytes" column how much space each protocol takes up in the transmission.
+### A: 
+>We select the Statistics→Protocol Hierarchy option. And in the image below, you can see in the "Bytes" column how much space each protocol takes up in the transmission.
 
 <img width="1090" height="160" alt="obraz" src="https://github.com/user-attachments/assets/f906d062-435e-47a0-b25f-4a4c3c575473" />
 
