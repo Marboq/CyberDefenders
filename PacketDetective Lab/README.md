@@ -20,3 +20,7 @@
 >Authentication through SMB was a critical step in gaining access to the targeted system. Identifying the username used for this authentication will help determine if a privileged account was compromised.
 Which username was utilized for authentication via SMB?
 
+### A:
+>After typing the protocol name "ntlmssp" into the filter box, the packets containing this protocol were displayed. Here you can immediately see that in the "Info" column, we see user:Administrator. This is one method. The second method is that by typing "ntlmssp.auth.username" into the filter box, we get only those packets where information about the credentials used in the SMB protocol is visible.
+
+<img width="1090" height="580" alt="obraz" src="https://github.com/user-attachments/assets/5c945ce3-71c5-4f8a-af0f-919f584faa4b" />
