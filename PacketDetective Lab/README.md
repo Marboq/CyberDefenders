@@ -38,7 +38,7 @@ Which username was utilized for authentication via SMB?
 <img width="792" height="576" alt="obraz" src="https://github.com/user-attachments/assets/29d05a02-ef5a-4a18-b8ce-6aa59f520805" />
 
 ### Flag 3: eventlog
-<br>
+
 
 </br>
 ### Q4:
