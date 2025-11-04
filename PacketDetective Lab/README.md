@@ -60,4 +60,15 @@ Which username was utilized for authentication via SMB?
 <br>
 <br>
 <br>
-sdfs
+
+### Q5:
+> The attacker used "named pipes" for communication, suggesting they may have utilized Remote Procedure Calls (RPC) for lateral movement across the network. RPC allows one program to request services from another remotely, which could grant the attacker unauthorized access or control. What is the name of the service that communicated using this named pipe?
+
+### A5:
+> First, we start by locating the packets with the "dcerpc" protocol by typing "dcerpc" into the filter box. Next, we look for a packet where the "Info" column shows information about the request to create a new remote instance (RemoteCreateInstance request).
+
+<img width="1090" height="261" alt="obraz" src="https://github.com/user-attachments/assets/9271fa77-ac3f-4001-a9d2-3712aa4f184a" />
+<br>
+Generally, a pipe has the syntax ‘\.\PIPE\name’. We need to locate a pipe with this pattern in this packet. Therefore, we right-click on the selected packet and then select Follow→TCP Stream. Then we search for the service name after the word PIPE; in this case, it is ‘atsvc’, which is the Task Scheduler service.
+<img width="1090" height="394" alt="obraz" src="https://github.com/user-attachments/assets/35cc1700-fb12-4e04-a184-b8d212fe1120" />
+### Flag 5: atsvc
