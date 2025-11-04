@@ -1,4 +1,4 @@
-## Scenario: 
+# Scenario: 
 
 *In September 2020, your SOC detected suspicious activity from a user device, flagged by unusual SMB protocol usage. Initial analysis indicates a possible compromise of a privileged account and remote access tool usage by an attacker.*
 
