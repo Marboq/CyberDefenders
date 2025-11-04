@@ -29,6 +29,20 @@ Which username was utilized for authentication via SMB?
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Q3:
 >During the attack, the adversary accessed certain files. Identifying which files were accessed can reveal the attacker's intent. What is the name of the file that was opened by the attacker?
 
