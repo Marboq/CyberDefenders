@@ -16,6 +16,7 @@
 <br>
 <br>
 <br>
+
 ### Q2: 
 >Authentication through SMB was a critical step in gaining access to the targeted system. Identifying the username used for this authentication will help determine if a privileged account was compromised.
 Which username was utilized for authentication via SMB?
@@ -29,6 +30,7 @@ Which username was utilized for authentication via SMB?
 <br>
 <br>
 <br>
+
 ### Q3:
 >During the attack, the adversary accessed certain files. Identifying which files were accessed can reveal the attacker's intent. What is the name of the file that was opened by the attacker?
 
@@ -41,6 +43,7 @@ Which username was utilized for authentication via SMB?
 <br>
 <br>
 <br>
+
 ### Q4:
 >Clearing event logs is a common tactic to hide malicious actions and evade detection. Pinpointing the timestamp of this action is essential for building a timeline of the attacker’s behavior. What is the timestamp of the attempt to clear the event log? (24-hour UTC format)
 
