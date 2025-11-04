@@ -42,6 +42,14 @@ Which username was utilized for authentication via SMB?
 
 
 ### Q4:
-4.	Clearing event logs is a common tactic to hide malicious actions and evade detection. Pinpointing the timestamp of this action is essential for building a timeline of the attacker’s behavior. What is the timestamp of the attempt to clear the event log? (24-hour UTC format)
+>Clearing event logs is a common tactic to hide malicious actions and evade detection. Pinpointing the timestamp of this action is essential for building a timeline of the attacker’s behavior. What is the timestamp of the attempt to clear the event log? (24-hour UTC format)
 
+### A4:
+>After typing "eventlog" in the filters, we will get packets that related to the eventlog service. In the "Info" column, we can see a packet with the information "ClearEventLogW request". This is what's behind the clearing of the event log. Of course, to capture the timestamp, you need to select the View→Time Display Format→UTC Date and Time of Day option.
+
+<img width="1090" height="89" alt="obraz" src="https://github.com/user-attachments/assets/429883f8-b7f7-4d16-8d64-20ef8c7dcce1" />
+
+>It is also possible to enter the filter "dcerpc.opnum == 0", which directly indicates that the option to clear the event log was selected.
+
+<img width="1091" height="59" alt="obraz" src="https://github.com/user-attachments/assets/ba813608-b948-4a61-92d8-291d052b226e" />
 
