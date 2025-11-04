@@ -40,7 +40,7 @@ Which username was utilized for authentication via SMB?
 ### Flag 3: eventlog
 
 
-</br>
+
 ### Q4:
 >Clearing event logs is a common tactic to hide malicious actions and evade detection. Pinpointing the timestamp of this action is essential for building a timeline of the attacker’s behavior. What is the timestamp of the attempt to clear the event log? (24-hour UTC format)
 
@@ -54,4 +54,7 @@ Which username was utilized for authentication via SMB?
 <img width="1091" height="59" alt="obraz" src="https://github.com/user-attachments/assets/ba813608-b948-4a61-92d8-291d052b226e" />
 
 ### Flag 4: 2020-09-23 16:50:16.731550
-
+&nbsp;
+&nbsp;
+&nbsp;
+sdfs
