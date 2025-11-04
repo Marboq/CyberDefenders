@@ -83,3 +83,9 @@ Which username was utilized for authentication via SMB?
 
 ### Q6:
 > Measuring the duration of suspicious communication can reveal how long the attacker maintained unauthorized access, providing insights into the scope and persistence of the attack. What was the duration of communication between the identified addresses 172.16.66.1 and 172.16.66.36?
+
+### A6:
+> We select the Statistics→Conversations tab, then the IPv4 tab. There, we locate the conversation we are looking for. Next, we look at the Duration column, and we see the communication between the two addresses last 11.7247 s.
+<img width="1090" height="119" alt="obraz" src="https://github.com/user-attachments/assets/f732289c-469d-4e3c-89fc-27a3091d8e8c" 
+ 
+
