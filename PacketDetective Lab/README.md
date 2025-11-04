@@ -28,6 +28,7 @@ Which username was utilized for authentication via SMB?
 ### Flag 2: Administrator
 
 
+
 ### Q3:
 >During the attack, the adversary accessed certain files. Identifying which files were accessed can reveal the attacker's intent. What is the name of the file that was opened by the attacker?
 
@@ -37,3 +38,6 @@ Which username was utilized for authentication via SMB?
 <img width="792" height="576" alt="obraz" src="https://github.com/user-attachments/assets/29d05a02-ef5a-4a18-b8ce-6aa59f520805" />
 
 ### Flag 3: eventlog
+
+
+
