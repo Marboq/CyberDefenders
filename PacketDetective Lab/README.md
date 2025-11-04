@@ -13,3 +13,10 @@
 <img width="1090" height="160" alt="obraz" src="https://github.com/user-attachments/assets/f906d062-435e-47a0-b25f-4a4c3c575473" />
 
 ### Flag 1: 4406
+
+
+
+### Q2: 
+>Authentication through SMB was a critical step in gaining access to the targeted system. Identifying the username used for this authentication will help determine if a privileged account was compromised.
+Which username was utilized for authentication via SMB?
+
