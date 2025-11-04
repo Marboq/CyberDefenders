@@ -87,6 +87,6 @@ Which username was utilized for authentication via SMB?
 ### A6:
 > We select the Statistics→Conversations tab, then the IPv4 tab. There, we locate the conversation we are looking for. Next, we look at the Duration column, and we see the communication between the two addresses last 11.7247 s.
 
-<img width="1090" height="119" alt="obraz" src="https://github.com/user-attachments/assets/f732289c-469d-4e3c-89fc-27a3091d8e8c" 
+<img width="1090" height="119" alt="obraz" src="https://github.com/user-attachments/assets/f732289c-469d-4e3c-89fc-27a3091d8e8c" /> 
  
 
