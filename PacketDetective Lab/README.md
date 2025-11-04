@@ -70,6 +70,7 @@ Which username was utilized for authentication via SMB?
 <img width="1090" height="261" alt="obraz" src="https://github.com/user-attachments/assets/9271fa77-ac3f-4001-a9d2-3712aa4f184a" />
 <br>
 <br>
+
 > Generally, a pipe has the syntax ‘\.\PIPE\name’. We need to locate a pipe with this pattern in this packet. Therefore, we right-click on the selected packet and then select Follow→TCP Stream. Then we search for the service name after the word PIPE; in this case, it is ‘atsvc’, which is the Task Scheduler service.
 <br>
 <br>
