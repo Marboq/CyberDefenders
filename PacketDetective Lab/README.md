@@ -88,5 +88,13 @@ Which username was utilized for authentication via SMB?
 > We select the Statistics→Conversations tab, then the IPv4 tab. There, we locate the conversation we are looking for. Next, we look at the Duration column, and we see the communication between the two addresses last 11.7247 s.
 
 <img width="1090" height="119" alt="obraz" src="https://github.com/user-attachments/assets/f732289c-469d-4e3c-89fc-27a3091d8e8c" /> 
+
+### Flag 6: 11,7247 s
+<br>
+<br>
+<br>
+
+### Q7:
+> The attacker used a non-standard username to set up requests, indicating an attempt to maintain covert access. Identifying this username is essential for understanding how persistence was established. Which username was used to set up these potentially suspicious requests?
  
 
